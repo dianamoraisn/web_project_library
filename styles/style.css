@@ -38,14 +38,13 @@
 .header__content {
   display: flex;
   justify-content: space-between;
-  margin-top: 128px;
 }
 .header__title {
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
   margin: 0;
-  margin-top: 0;
+  margin-top: 128px;
   margin-bottom: 32px;
   max-width: 635px;
 }
@@ -331,15 +330,14 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin-left: auto;
+  margin-left: 100px;
 }
 
 .footer__logo {
